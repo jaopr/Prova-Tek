@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Classificação</title>
+    <style>
+        /* Definindo a Largura da Tabela e removendo espaço entre células*/
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 18px;
+            text-align: left;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: green;
+            color: white;
+        }
+        /*Dunção para alterar as cores entre cada linha da tabela*/
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <!-- Definindo a Primeira linha da tabela-->
+        <tr>
+            <th>Classificação</th>
+            <th>Clube</th>
+            <th>Pts</th>
+            <th>SG</th>
+        </tr>
+        <!-- Definindo a Segunda linha da tabela-->
+        <tr>
+            <td>1</td>
+            <td>Tombense</td>
+            <td>27</td>
+            <td>16</td>
+        </tr>
+        <!-- Definindo a Terceira linha da tabela-->
+        <tr>
+            <td>2</td>
+            <td>Caldense</td>
+            <td>22</td>
+            <td>8</td>
+        </tr>
+        <!-- Definindo a Quarta linha da tabela-->
+        <tr>
+            <td>3</td>
+            <td>Uberlândia</td>
+            <td>20</td>
+            <td>7</td>
+        </tr>
+    </table>
+</body>
+</html>
